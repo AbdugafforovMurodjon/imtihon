@@ -1,25 +1,7 @@
-.container_father{
-    min-width: 1350px;
-    height: auto;
-    margin: 0 auto;
-    overflow:hidden;
-}
-header  {
-    width: 100%;
-    border:1px solid;
-
-}
-
-
-
 header .sidebar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.sidebar:hover {
-    cursor: pointer;
 }
 
 .nav__title {
@@ -63,7 +45,8 @@ header .sidebar {
     position: relative;
     height: 804px;
     background-image: url('..//imtihon/static/images/hero\ blocks.webp');
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header__blog--text {
